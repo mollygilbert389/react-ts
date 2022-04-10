@@ -5,11 +5,12 @@ DONE:
 4. Add correct folder structure (with pages and components)
 5. Add Testing
     * add simple test
-    * add mock - no
 
 TO DO: 
+6. Add a section 
+7. Test a section 
 6. Add a layout
     * include header
     * footer
 7. Add a section
-8. commit environment to github
+8. Add a REST API call
