@@ -12,10 +12,12 @@ describe("<Card/>", () => {
     expect(screen.getByLabelText(/card/)).toBeInTheDocument();
   });
 
-  // it("will display a small card", () => {
-  //   render(<SmallCard />);
-  //   console.log(screen.getByLabelText(/card/).className)
-  //   expect(screen.getByLabelText(/card/).className).toContain("width: 100");
-  // });
-  
+  it("will display a small card", () => {
+    render(<SmallCard />);
+    expect(screen.getByLabelText(/card/)).toHaveStyle({
+      width: '100px',
+      height: '100px'
+    });
+  });
+
 });
