@@ -20,4 +20,19 @@ describe("<Card/>", () => {
     });
   });
 
+  it("will display a medium card", () => {
+    render(<MediumCard />);
+    expect(screen.getByLabelText(/card/)).toHaveStyle({
+      width: '200px',
+      height: '200px'
+    });
+  });
+
+  it("will display a large card", () => {
+    render(<LargeCard />);
+    expect(screen.getByLabelText(/card/)).toHaveStyle({
+      width: '500px',
+      height: '500px'
+    });
+  });
 });
