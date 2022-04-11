@@ -15,7 +15,7 @@ const BoardContainer: React.FC<Props> = (props) => {
 
   return (
     <Page>
-      <div style={{ backgroundColor: "blue" }}>
+      <div>
         I am a div inside a frame! 
       </div>
     </Page>
