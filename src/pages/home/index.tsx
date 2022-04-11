@@ -1,10 +1,11 @@
 import React from "react";
+import { Page } from "../components";
 
 type Props = {
     id: string;
 }
 
-const BoardContainer: React.FC<Props> = () => {
+const BoardContainer: React.FC<Props> = (props) => {
 
   React.useEffect(() => {
     fetch('https://api.artic.edu/api/v1/artworks')
@@ -13,9 +14,11 @@ const BoardContainer: React.FC<Props> = () => {
   }, [])
 
   return (
-    <React.Fragment>
-        Hello World
-    </React.Fragment>
+    <Page>
+      <div style={{ backgroundColor: "blue" }}>
+        I am a div inside a frame! 
+      </div>
+    </Page>
   )
 }
 

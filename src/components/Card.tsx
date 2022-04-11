@@ -1,6 +1,6 @@
 import React from "react";
 
-export type CardProps = {
+interface CardProps {
   size: "small" | "medium" | "large";
   subPhoto: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
@@ -44,4 +44,7 @@ const Card: React.FC<CardProps> = ({
   )
 }
 
-export default Card;
+export {
+  Card,
+  CardProps
+}
