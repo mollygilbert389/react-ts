@@ -5,12 +5,11 @@ DONE:
 4. Add correct folder structure (with pages and components)
 5. Add Testing
     * add simple test
+6. Add a section 
+7. Add a REST API call
+8. Test a section 
 
 TO DO: 
-6. Add a section 
-7. Test a section 
-6. Add a layout
+9. Add a layout
     * include header
     * footer
-7. Add a section
-8. Add a REST API call
