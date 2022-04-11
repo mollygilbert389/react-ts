@@ -21,6 +21,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/components",
+    "src/pages"
+  ],
+  "exclude": [
+    "src/stories/index.tsx"
   ]
 }
