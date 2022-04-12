@@ -7,7 +7,7 @@ const Footer = () => {
         😎
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Footer;

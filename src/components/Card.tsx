@@ -7,7 +7,7 @@ interface CardProps {
   width?: number;
   height?: number;
   type?: string;
-}
+};
 
 function getSize(size: string) {
   switch(size) {
@@ -17,8 +17,8 @@ function getSize(size: string) {
       return 200
     case "large": 
       return 500
-  }
-}
+  };
+};
 
 const Card: React.FC<CardProps> = ({
   size="small",
@@ -41,10 +41,10 @@ const Card: React.FC<CardProps> = ({
         </button>
       )}
     </React.Fragment>
-  )
-}
+  );
+};
 
 export {
   Card,
   CardProps
-}
+};

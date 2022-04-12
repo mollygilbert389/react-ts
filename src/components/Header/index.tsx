@@ -7,7 +7,7 @@ const Header = () => {
         Molly's super cool ts app.
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Header;

@@ -3,6 +3,7 @@ import { Header, Footer } from "../../components";
 
 const Page: React.FC<React.PropsWithChildren<any>> = (props) => {
   const { children } = props;
+  
   return (
     <React.Fragment>
       <Header />
@@ -11,6 +12,8 @@ const Page: React.FC<React.PropsWithChildren<any>> = (props) => {
         </React.Fragment>
       <Footer />
     </React.Fragment>
-  )
-}
+  );
+};
+
 export default Page;
+

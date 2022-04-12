@@ -4,8 +4,8 @@ import { template } from "..";
 export default {
   title: "Sections/Header",
   component: Header
-}
+};
 
 const story = template(Header);
 
-export const PrimaryHeader = story()
+export const PrimaryHeader = story();

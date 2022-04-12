@@ -11,12 +11,12 @@ type Props = {
     setClose: React.Dispatch<boolean>;
     close: boolean;
     contnet: React.FC;
-}
+};
 
 const Modal = ({
     
 }) => {
 
-}
+};
 
 export default Modal;

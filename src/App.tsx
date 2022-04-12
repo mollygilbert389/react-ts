@@ -7,6 +7,6 @@ function App() {
       <Home id={"1"}/>
     </div>
   );
-}
+};
 
 export default App;

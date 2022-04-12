@@ -13,3 +13,12 @@ DONE:
 9. Add a layout
     * include header
     * footer
+10. Clean up code
+
+To Do: 
+* code rate limiter
+* code trello
+* figure out values questions
+* create another empty environment
+* figure out .editorconfig file 
+* 

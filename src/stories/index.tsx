@@ -10,4 +10,4 @@ export function template<A>(component: Component<A>) {
     story.args = args;
     return story;
   };
-}
+};

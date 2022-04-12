@@ -4,9 +4,8 @@ import { template } from "..";
 export default {
   title: "Sections/Footer",
 	component: Footer
-}
+};
 
 const story = template(Footer);
 
-export const PrimaryFooter = story()
-
+export const PrimaryFooter = story();
