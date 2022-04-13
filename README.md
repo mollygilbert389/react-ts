@@ -14,31 +14,26 @@ DONE:
     * include header
     * footer
 10. Clean up code
+11. figure out values questions
 
 Subtasks: 
 * check out what rest is in hasura -> you can create endpoints in hasura that use graphql to call
 
-TUESDAY TO DO: 
-* to JS practice questions
-* code rate limiter
-* code trello
-* figure out values questions
-* create another empty environment
-* figure out .editorconfig file 
-* Reread mgmt interview STAR Qs
-
 WEDNESDAY TO-DO: 
-1. Code (Morning)
-2. Add a component
-3. Review algo solutions
-4. Practice JS questions
-5. Watch a whiteboarding interview
-6. Wish mom a happy birthday
+1. code rate limiter
+2. Code (Morning)
+3. Add a component
+4. Review algo solutions
+5. Practice JS questions
+6. Watch a whiteboarding youtube
+7. Review values and update - check with Lukasz on the values
+8. create another empty environment
 
 THURSDAY TO DO: 
 1. make sure environment is running as it should
 2. review STAR questions & make sure questions are good for interviewer
 3. make another component
+4. Review features you recently worked on
 
 BREAK: 
 4. review values

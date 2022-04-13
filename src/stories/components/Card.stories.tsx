@@ -1,13 +1,13 @@
 import { Card } from "../../components";
 import { template } from "..";
 
-const CardWrapper: React.FC = ({ ...props}) => {
+const CardWrapper: React.FC = ({ ...props }) => {
   const handleOnClick = () => {
     console.log("click");
   };
 
   return (
-    <Card {...props} size={"small"} subPhoto={false} onClick={() => handleOnClick()} />
+    <Card {...props} subPhoto={false} onClick={() => handleOnClick()} />
   );
 };
 

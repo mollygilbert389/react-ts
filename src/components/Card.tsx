@@ -1,7 +1,7 @@
 import React from "react";
 
 interface CardProps {
-  size: "small" | "medium" | "large";
+  size?: "small" | "medium" | "large";
   subPhoto: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   width?: number;
@@ -25,22 +25,9 @@ const Card: React.FC<CardProps> = ({
   subPhoto=false
 }) => {
   return (
-    <React.Fragment>
-      {!subPhoto ? (
-          <button aria-label="card" style={{ width: getSize(size), height: getSize(size), backgroundColor: "white", borderRadius: 6 }}>
-          I am card!
-        </button>
-      ) : (
-        <button>
-          <div>
-            First Image
-              <div>
-                other images
-              </div>
-          </div>
-        </button>
-      )}
-    </React.Fragment>
+    <button aria-label="card" style={{ width: getSize(size), height: getSize(size), backgroundColor: "white", borderRadius: 6 }}>
+      I am card!
+    </button>
   );
 };
 
