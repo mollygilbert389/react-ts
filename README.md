@@ -15,19 +15,18 @@ DONE:
     * footer
 10. Clean up code
 11. figure out values questions
+12. create another empty environment
+13. Add a component
+14. ensured zoom will share screen for work computer
 
 Subtasks: 
 * check out what rest is in hasura -> you can create endpoints in hasura that use graphql to call
 
 WEDNESDAY TO-DO: 
-1. code rate limiter
-2. Code (Morning)
-3. Add a component
-4. Review algo solutions
-5. Practice JS questions
-6. Watch a whiteboarding youtube
-7. Review values and update - check with Lukasz on the values
-8. create another empty environment
+1. Review algo solutions
+2. Practice JS questions
+3. Watch a whiteboarding youtube
+4. Review values and update - check with Lukasz on the values
 
 THURSDAY TO DO: 
 1. make sure environment is running as it should
@@ -35,9 +34,9 @@ THURSDAY TO DO:
 3. make another component
 4. Review features you recently worked on
 
-BREAK: 
+1ST BREAK: 
 4. review values
 5. review whiteboard plan
 
-BREAK: 
+2ND BREAK: 
 6. Full Stack questions
