@@ -7,11 +7,11 @@ type Props = {
 
 const BoardContainer: React.FC<Props> = () => {
 
-  React.useEffect(() => {
-    fetch('https://api.artic.edu/api/v1/artworks')
-    .then(response => response.json())
-    .then(data => console.log(data));
-  }, []);
+  // React.useEffect(() => {
+  //   fetch('https://api.artic.edu/api/v1/artworks')
+  //   .then(response => response.json())
+  //   .then(data => console.log(data));
+  // }, []);
 
   return (
     <Page>
