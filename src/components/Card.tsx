@@ -2,7 +2,7 @@ import React from "react";
 
 interface CardProps {
   size?: "small" | "medium" | "large";
-  subPhoto: boolean;
+  subPhoto?: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   width?: number;
   height?: number;

@@ -15,7 +15,7 @@ const BoardContainer: React.FC<Props> = () => {
 
   return (
     <Page>
-      <div>
+      <div style={{ fontFamily: "Verdana, sans-serif" }}>
         I am a div inside a frame! 
       </div>
     </Page>
