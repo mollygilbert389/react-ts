@@ -25,6 +25,7 @@
     "src/pages"
   ],
   "exclude": [
-    "src/stories/index.tsx"
+    "src/stories/index.tsx",
+    "src/tests/pages/Home.test.tsx"
   ]
 }

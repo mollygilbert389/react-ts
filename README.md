@@ -18,15 +18,16 @@ DONE:
 12. create another empty environment
 13. Add a component
 14. ensured zoom will share screen for work computer
+15. Review values and update - check with Lukasz on the values
 
 Subtasks: 
 * check out what rest is in hasura -> you can create endpoints in hasura that use graphql to call
 
 WEDNESDAY TO-DO: 
+1. Write a mock
 1. Review algo solutions
 2. Practice JS questions
 3. Watch a whiteboarding youtube
-4. Review values and update - check with Lukasz on the values
 
 THURSDAY TO DO: 
 1. make sure environment is running as it should
