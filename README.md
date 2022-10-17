@@ -24,14 +24,3 @@ DONE:
 
 Subtasks: 
 * check out what rest is in hasura -> you can create endpoints in hasura that use graphql to call
-
-THURSDAY TO DO: 
-2. review STAR questions & make sure questions are good for interviewer
-4. Review features you recently worked on
-
-1ST BREAK: 
-4. review values
-5. review whiteboard plan
-
-2ND BREAK: 
-6. Full Stack questions
